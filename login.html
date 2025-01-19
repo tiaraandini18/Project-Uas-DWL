@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Jobindo</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="beranda">
+    <a class="navbar-brand font-weight-bold text-primary" href="#">J<span class="text-success">o</span>bindo.com</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item m-1">
+          <a class="nav-link text-dark" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item m-1">
+          <a class="nav-link text-dark" href="index.html">Perusahaan</a>
+        </li>
+        <li class="nav-item m-1">
+          <a class="nav-link text-dark" href="index.html">Pencari Kerja</a>
+        </li>
+        <li class="nav-item dropdown m-1">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Bahasa
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Indonesia</a>
+            <a class="dropdown-item" href="#">English</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success my-2 my-sm-0 " type="submit"><a href="login.html"
+            class="text-white text-decoration-none">Login</a></button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center mt-5">Masuk Ke Akun Perusahaan & Pencari Kerja</h1>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <a href="#">Lupa kata sandi?</a>
+            <a href="#">Belum punya akun?</a>
+          </div>
+          <button type="submit" class="btn btn-success w-100">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-5 ">
+    <hr>
+    <p>Copyright &copy; 2005-2025 Jobindo</p>
+  </footer>
+
+  <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
